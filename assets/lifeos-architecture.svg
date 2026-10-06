@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">LifeOS Architecture Case Study</title>
+  <desc id="desc">Sanitized case study about reliable AI systems and deterministic integrations.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="52%" stop-color="#101828"/>
+      <stop offset="100%" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="24" fill="url(#grid)"/>
+  <rect x="68" y="56" width="94" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="68" y="130" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="700">LifeOS</text>
+  <text x="68" y="174" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" font-weight="600">Architecture Case Study</text>
+  <text x="68" y="220" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">Durable AI systems · deterministic integrations · safe state mutation</text>
+  <text x="68" y="273" fill="#64748b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">PRIVATE SYSTEM / PUBLIC ENGINEERING DECISIONS</text>
+  <g transform="translate(795 68)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="130" height="52" rx="12" stroke="#22d3ee" stroke-opacity=".55"/>
+    <text x="65" y="32" text-anchor="middle" fill="#cbd5e1" stroke="none" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">AI / Source</text>
+    <path d="M65 52V82" stroke="#64748b"/>
+    <path d="M60 76L65 82L70 76" stroke="#64748b"/>
+    <rect x="0" y="82" width="130" height="52" rx="12" stroke="#8b5cf6" stroke-opacity=".6"/>
+    <text x="65" y="114" text-anchor="middle" fill="#cbd5e1" stroke="none" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Contract</text>
+    <path d="M65 134V164" stroke="#64748b"/>
+    <path d="M60 158L65 164L70 158" stroke="#64748b"/>
+    <rect x="0" y="164" width="130" height="52" rx="12" stroke="#34d399" stroke-opacity=".6"/>
+    <text x="65" y="196" text-anchor="middle" fill="#cbd5e1" stroke="none" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Domain State</text>
+    <circle cx="196" cy="26" r="8" fill="#22d3ee" fill-opacity=".65" stroke="none"/>
+    <circle cx="226" cy="108" r="8" fill="#8b5cf6" fill-opacity=".65" stroke="none"/>
+    <circle cx="196" cy="190" r="8" fill="#34d399" fill-opacity=".65" stroke="none"/>
+    <path d="M204 29C247 37 254 81 232 101" stroke="#475569" stroke-opacity=".65"/>
+    <path d="M220 116C200 132 193 157 197 181" stroke="#475569" stroke-opacity=".65"/>
+  </g>
+</svg>
